@@ -1,0 +1,34 @@
+---
+
+---
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <header>
+      {% if title == "Amber's Garden" %}
+      <img src="/assets/img/ambermoon-1.webp" alt="Photo of the Moon with the Sun superimposed"/>
+      {% endif %}
+      <p>Amber's Garden</p>
+    </header>
+    <div class="main-container" role="presentation">
+      <nav aria-label="Site menu">
+        <ul>
+          {% for item in menu %}
+          {% if item.title == "---" %}
+          <hr/>
+          {% else %}
+          <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+      <main>
+        {{ content | safe }}
+      </main>
+    </div>
+  </body>
+</html>

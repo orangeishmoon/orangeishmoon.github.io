@@ -1,0 +1,15 @@
+# Generic
+node_modules/
+.env
+.log
+.cache
+yarn.lock
+.vscode
+**/.DS_Store
+
+# App-specific
+_site/
+node-supporters/
+src/_data/builtwith/
+
+tmp/

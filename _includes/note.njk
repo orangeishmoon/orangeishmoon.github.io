@@ -1,0 +1,16 @@
+---
+layout: default.njk
+---
+{{ content | safe }}
+<hr>
+<p>Pages linking here: <span id="backlinks">
+{% set backlinks = collections.all | links_to(page.url) %}
+{% if backlinks.length > 0 %}
+{% for link in backlinks %}
+<a href="{{ link.url }}">{{ link.data.title if link.data.title else link.url }}</a>{{ "" if loop.last else ", " }}
+</span>
+{% endfor %}
+{% else %}
+none
+{% endif %}
+</p>

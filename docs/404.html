@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>&#39;s nobody here</title>
+  </head>
+  <body>
+    <header>
+      
+      <p>Amber's Garden</p>
+    </header>
+    <div class="main-container" role="presentation">
+      <nav aria-label="Site menu">
+        <ul>
+          
+          
+          <li><a href="/">Home</a></li>
+          
+          
+          
+          <li><a href="/contact">Contact Me</a></li>
+          
+          
+          
+          <hr/>
+          
+          
+          
+          <li><a href="/credits/">Credits</a></li>
+          
+          
+          
+          <li><a href="/all">All Pages</a></li>
+          
+          
+          
+          <li><a href="asfsdafasdasfdafsdasfafs">Unvisited link test</a></li>
+          
+          
+        </ul>
+      </nav>
+      <main>
+        <label style="font-size: 0.7em;" role="presentation">Wrong phone number song by Toby Fox</label><br>
+<audio aria-label="Wrong phone number song by Toby Fox" controls loop src="/assets/mus_wrongnumbersong.ogg">Wrong number song from Undertale by Toby Fox here</audio>
+
+<p>There's no page here to be found</p>
+
+<p>If that's a link somewhere on this website, you should probably <a href="/contact">poke me</a></p>
+
+<p>You could go <a id="404link" href="/">back home</a></p>
+
+<script id="randpicker">
+  const allpages = [
+    
+    
+    "/",
+    
+    
+    
+    "/credits",
+    
+    
+    
+    "/ai",
+    
+    
+    
+    "/contact",
+    
+    
+    
+    "/notes/test",
+    
+    
+    
+    "/notes/another",
+    
+    
+    
+    "/now",
+    
+    
+  ];
+  const randlink = allpages[Math.floor(Math.random() * allpages.length)];
+  const link = document.getElementById("404link");
+  link.href = randlink;
+  link.innerText = "to a random location";
+  document.getElementById("randpicker").remove();
+</script>
+
+      </main>
+    </div>
+  </body>
+</html>
