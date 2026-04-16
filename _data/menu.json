@@ -2,7 +2,7 @@
     {"title":"Home","link":"/"},
     {"title":"Contact Me","link":"/contact"},
     {"title":"---","link":null},
-    {"title":"Credits","link":"/credits/"},
+    {"title":"Credits","link":"/credits"},
     {"title":"All Pages","link":"/all"},
     {"title":"Unvisited link test","link":"asfsdafasdasfdafsdasfafs"}
 ]
