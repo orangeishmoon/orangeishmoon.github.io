@@ -18,3 +18,5 @@ bestvideo[height<=?1000][format_note!*=?AI-upscaled]+bestaudio[format_note!*=?AI
 ```
 
 It downloads at most 720p, not upscaled, not voiced over
+
+But to be level with you, it's still a lot of videos to sink into, still enough to fill up the free time most of the days. For that I don't have a solution. Maybe gradually remove channels that matter less, until you can run out of videos for a day or two
