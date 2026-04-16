@@ -3,7 +3,7 @@ title: On Youtube
 layout: note.njk
 ---
 
-Looking through Kagi's Small Web, I got to read on [theoo's experience with ditching Youtube](https://theoo.dev/notes/16), and I want to share my own experience of going away from YouTube
+Looking through Kagi's Small Web, I got to read on [théoo's experience with ditching Youtube](https://theoo.dev/notes/16), and I want to share my own experience of going away from YouTube
 
 Unlike them, I haven't completely stopped myself from watching videos - I see that as too drastic. You can't just get away from it after it's been your main time killer. But I did recognize the "danger" of recommendations. My thinking of that coincided with me considering what else should I install on my home server, so I found [TubeArchivist](https://www.tubearchivist.com/) - a service that automatically downloads videos
 

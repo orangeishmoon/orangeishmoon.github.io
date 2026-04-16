@@ -13,3 +13,5 @@ The font is Cormorant by Christian Thalmann from [Google Fonts](https://fonts.go
 Built using [11ty](https://www.11ty.dev/)
 
 Backlinking heavily based on [Andrew Ward's](https://blog.rubenwardy.com/2023/10/29/eleventy-backlinks/) work
+
+Simpler way of hosting 11ty sites on GitHub Pages borrowed from [Léa Tortay](https://lea-tortay.com/articles/github-pages-eleventy/) (who apparently [works](https://lea-tortay.com/contact/) in a [design studio](https://fictivekin.com/) that works/ed for, among other corporations, Palantir?? you shitting me. explode yourself) (I just wanted to copy your name with the proper diacritic)
