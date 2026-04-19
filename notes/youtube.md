@@ -11,12 +11,14 @@ But for that to work you have to first put some feeds into it - playlists or cha
 
 Default settings of TA are actually pretty okay, but I did disable download of streams and shorts by settings the page size to 0, and set the video page size to 5 - I don't have the space to download that much of backlog
 
-I am pretty proud of the download format I've come up with, here it is in the entirety (excuse the text spilling out, I can't figure out the styling for code blocks yet):
+I am pretty proud of the download format I've come up with, here it is in the entirety:
 
-```
+```txt
 bestvideo[height<=?1000][format_note!*=?AI-upscaled]+bestaudio[format_note!*=?AI-upscaled][format_note*=?original]/bestvideo[height<=?1000][format_note!*=?AI-upscaled]+bestaudio[format_note!*=?AI-upscaled]/best[height<=?1000][format_note!*=?AI-upscaled]
 ```
 
 It downloads at most 720p, not upscaled, not voiced over
 
 But to be level with you, it's still a lot of videos to sink into, still enough to fill up the free time most of the days. For that I don't have a solution. Maybe gradually remove channels that matter less, until you can run out of videos for a day or two
+
+Another thing I was suggested is to ask yourself, "am I watching videos because I don't have energy for anything else, or I just didn't realize I could be doing something else?" It's always nice to be mindful, but for this method you do need to come up with something to do (though you have to do it anyway if you were going to not spend time on videos)

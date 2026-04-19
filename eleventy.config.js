@@ -1,7 +1,9 @@
 import pluginBacklinks from "./plugins/backlinks.js";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 export default function (eleventyConfig) {
   eleventyConfig.setOutputDirectory("docs");
+  eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginBacklinks);
   eleventyConfig.addPassthroughCopy("assets/**");
   eleventyConfig.addGlobalData("layout", "default.njk");
